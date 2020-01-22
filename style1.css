@@ -1,0 +1,125 @@
+/*Titre principale de la page*/
+h1
+{
+	position: relative;
+	margin-left: 350px;
+	top:155px;
+}
+
+strong
+{
+	font-size: 1.2em;
+	color: black;
+}
+em
+{
+	font-size: 0.6em;
+	color: orange;
+	position: relative;
+	bottom:20px;
+}
+img
+{
+	width: 110px;
+}
+p
+{
+	text-align: justify;
+}
+ul
+{
+	border: 5px solid black;
+	list-style-type: none;
+	background-color: black;
+	color: yellow;
+	width: 250px;
+}
+header
+{
+	width: 300px;
+	height: 1060px;
+	background-color: orange;
+	margin-left: 20px;
+	bottom: 800px;
+}
+
+/*body_page*/
+ #body_page
+{
+	position: relative;
+	margin-left: 350px;
+	bottom: 900px;
+}
+h2
+{
+	border-bottom: 1px solid red;
+	width: 500px;
+}
+i
+{
+	color: red;
+}
+
+@media all and (max-width: 1024px)
+{
+	h1 
+	{
+	font-size:1.1em;
+    width: 70%;
+    position: relative;
+    top: 1px;
+    margin-left: 200px;
+   	}
+	h2
+	{
+	font-size:1.1em;
+    width: 70%;
+    color: red;
+	}
+	em
+	{
+	font-size:1em;
+	color: orange;
+	position: relative;
+	bottom:0px;
+	}
+	p
+	{
+	text-align: justify;
+	}	
+	ul
+	{
+	border: 3px solid black;
+	list-style-type: none;
+	background-color: transparent;
+	color: black;
+	width: 200px;
+	margin: auto;
+	font-size: 1.1em;
+	}
+	img
+	{
+		display: flex;
+		margin: auto;
+		width: 90px;
+	}
+	header
+	{
+	width: 250px;
+	height: 1119px;
+	background-color: orange;
+	margin-left:0px;
+	bottom: 800px;
+	}
+	 #body_page
+	 {
+	position: relative;
+	margin-left: 259px;
+	bottom: 1000px;	
+	 }
+	 body
+	 {
+	 	display: inline-flex;
+	 	width: 93%;
+	 }
+}
